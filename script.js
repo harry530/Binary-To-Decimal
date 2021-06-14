@@ -1,4 +1,4 @@
-/* The power function */
+/* The power function isn't used*/
 let p = (a = 2, b) => {
     let p = 1;
     for(let i = 0; i < b; i++){
@@ -28,11 +28,13 @@ function myFunction(){
             }
             res.innerHTML = "The converted number is: " + sum;
         }
-    }
-    /* console.log(p); */
-    
+    }    
 }
 
+/* the function to empty the result field */
+function myResFun(){
+    res.innerHTML = " ";
+}
 
 
 
